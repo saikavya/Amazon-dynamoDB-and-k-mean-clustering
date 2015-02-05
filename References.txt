@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=3GorGZgTTEk
+
+https://www.youtube.com/watch?v=sAtnX3UJyN0
+
+http://www.javacodegeeks.com/2013/08/amazon-dynamodb.html
+
+com.amazonaws.auth.BasicAWSCredentials
+
+com.amazonaws.auth.ProfilesConfigFile
+
+com.amazonaws.ClientConfiguration

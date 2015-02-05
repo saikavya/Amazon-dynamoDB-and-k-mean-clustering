@@ -1,0 +1,11 @@
+download <- read.csv("C:/Users/file/download.txt", header=FALSE)
+View(download)
+plot(download)
+download.3clus<-kmeans(download,centers=3)
+download.3clus
+plot(download[c("V3","V4")],col=download.3clus$cluster)
+plot(download[c("V2","V4")],col=download.3clus$cluster)
+plot(download[c("V1","V4")],col=download.3clus$cluster)
+plot(download[c("V1","V3")],col=download.3clus$cluster)
+plot(download[c("V1","V2")],col=download.3clus$cluster)
+plot(download[c("V2","V3")],col=download.3clus$cluster)
